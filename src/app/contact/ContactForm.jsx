@@ -24,7 +24,7 @@ import { RevealWrapper } from 'next-reveal'
 
 const ContactForm = () => {
   const toast = useToast();
-  const options = ["Data Science", "AI/ML Engineering", "Freelance", "Other"];
+  const options = ["NextJS", "ReactJS", "NestJS", "NodeJS","StrapiCMS","JavaScript", "Other"];
   const [interestedIn, setInterestedIn] = useState("Web Development");
   const { getRootProps, getRadioProps } = useRadioGroup({
     name: "interested",

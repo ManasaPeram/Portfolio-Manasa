@@ -2,9 +2,9 @@ import Favicon from "/public/images/favicon.png";
 import ClientRootLayout from "../components/ClientRootLayout";
 
 export const metadata = {
-  title: "Sasidhar | AI/ML Engineer",
+  title: "Manasa | Full Stack Developer",
   description:
-  "Welcome to Sasidhar's AI/ML Engineering Portfolio. Explore a diverse range of projects and see how I can bring your ideas to life. Let's connect and discuss your next venture!",
+  "Welcome to Manasa's Full Stack Development Portfolio, where ideas turn into powerful web solutions with ReactJS, NextJS, and NestJS!",
   keywords: [
     "portfolio",
     "app",

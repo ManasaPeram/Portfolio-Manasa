@@ -28,14 +28,14 @@ const Page = () => {
               marginBottom="4rem"
               templateColumns={[null, null, "30% 70%"]}
             >
-              <Image
+              {/* <Image
                 objectFit="shrink"
                 src="/images/profile.jpg"
                 alt="profile-image"
                 width={["20rem", "30rem", "20rem"]}
                 height={["20rem", "30rem", "20rem"]}
                 marginBottom={["1rem", "1rem", null]}
-              />
+              /> */}
 
               <Box textAlign="justify">
                 <Heading size="xl" mt={1} >
@@ -43,19 +43,16 @@ const Page = () => {
                 </Heading>
                 <br />
                 <Text>
-                Hello, I am Sasidhar, a dedicated and innovative professional in the dynamic fields of Data Science, AI/ML.
-                My journey in this ever-evolving domain has led me to delve deeply into Computer Vision and Natural Language Processing, unlocking new potentials and applications in these areas.
-                <br></br>
-                <br></br>
-                Currently, my passion and focus are centered on Generative AI, specifically exploring the vast capabilities of Large Language Models (LLMs). 
-                This area of expertise enables me to contribute to the cutting-edge of AI technology, where the creation of new, intelligent content and solutions is not just a possibility, but a reality.
-                </Text>
-                <br />
-                <Text>
-                  📫 Open to collaborations and exciting projects, I&apos;m
-                  eager to connect with fellow developers and tech enthusiasts.
-                  Let&apos;s build something amazing together!
-                </Text>
+  Hey, I&apos;m Manasa, a full stack developer with a passion for building the future of the web. From designing sleek, intuitive front-end interfaces to developing powerful back-end systems, I create seamless, scalable applications that deliver exceptional user experiences. 
+  <br></br>
+  <br></br>
+  Whether it&apos;s crafting dynamic React applications or optimizing server-side architecture with Node.js and databases, I thrive on turning complex challenges into elegant solutions. Every project is a chance to innovate, and I&apos;m always ready to push the boundaries of what&apos;s possible with code.
+</Text>
+<br />
+<Text>
+  📫 Let&apos;s team up and build something amazing! I’m always excited to collaborate on new, creative projects with fellow developers and tech enthusiasts.
+</Text>
+
                 <Text>
                   Happy coding! 🖥️
                   <br />

@@ -5,17 +5,16 @@ import {
   FaGithub,
   FaInstagram,
   FaLinkedin,
+  FaReact,
   FaTwitter,
 } from "react-icons/fa";
+ 
 
+import { TbBrandCpp, TbDatabaseSearch, TbHexagonLetterC } from "react-icons/tb";
+import { BiLogoJquery, BiLogoPostgresql, BiLogoGmail } from "react-icons/bi";
+import { SiNextdotjs, SiNestjs , SiPostgresql, SiStrapi} from 'react-icons/si';
 import {
-  TbBrandCpp,
-  TbDatabaseSearch,
-  TbHexagonLetterC 
-} from "react-icons/tb";
-import { BiLogoJquery, BiLogoPostgresql,BiLogoGmail  } from "react-icons/bi";
-import {
-  SiGooglecloud ,
+  SiGooglecloud,
   SiMysql,
   SiTableau,
   SiTensorflow,
@@ -23,7 +22,7 @@ import {
   SiFlask,
   SiPandas,
   SiScikitlearn,
-  SiMicrosoftazure
+  SiMicrosoftazure,
 } from "react-icons/si";
 import { AiFillCode } from "react-icons/ai";
 import {
@@ -42,6 +41,7 @@ import { DiGoogleCloudPlatform } from "react-icons/di";
 import { RiOpenaiFill } from "react-icons/ri";
 import { LuBird } from "react-icons/lu";
 
+
 export const links = [
   { text: "Home", path: "/" },
   { text: "About", path: "/about" },
@@ -54,12 +54,12 @@ export const links = [
 
 export const interestsData = [
   {
-    interest: "Data Science",
+    interest: "ReactJS",
     icon: TbDatabaseSearch,
   },
   {
-    interest: "Machine Learning",
-    icon: LuBrainCircuit,
+    interest: "NextJS",
+    icon: SiNextdotjs,
   },
   {
     interest: "Artificial Intelligence",
@@ -69,10 +69,10 @@ export const interestsData = [
     interest: "Gen AI",
     icon: FaRobot,
   },
-  {
-    interest: "Visualization",
-    icon: BsFileBarGraph,
-  },
+  // {
+  //   interest: "Visualization",
+  //   icon: BsFileBarGraph,
+  // },
   {
     interest: "Software Development",
     icon: AiFillCode,
@@ -82,158 +82,161 @@ export const interestsData = [
     icon: SiGooglecloud,
   },
   {
-    interest: "Web Scraping",
+    interest: "Web Streaming",
     icon: BsGlobe,
   },
   {
     interest: "Docker",
-    icon: FaDocker ,
+    icon: FaDocker,
   },
 ];
 
 export const skillsData = [
   {
-    name: "Python",
-    icon: FaPython,
+    name: "NextJS",
+    icon: SiNextdotjs,
   },
   {
-    name: "C",
-    icon: TbHexagonLetterC ,
+    name: "ReactJS",
+    icon: FaReact,
   },
   {
-    name: "C++",
-    icon: TbBrandCpp,
+    name: "NestJS",
+    icon: SiNestjs,
   },
   {
-    name: "MySQL",
-    icon: SiMysql,
+    name: "PostgreSQL",
+    icon: SiPostgresql,
   },
   {
-    name: "Pandas",
-    icon: SiPandas,
+    name: "Strapi CMS",
+    icon: SiStrapi,
   },
-  {
-    name: "Tableau",
-    icon: SiTableau ,
-  },
-  {
-    name: "Scikit",
-    icon: SiScikitlearn  ,
-  },
-  {
-    name: "Tensorflow",
-    icon: SiTensorflow ,
-  },
-  {
-    name: "Pytorch",
-    icon: SiPytorch ,
-  },
+  // {
+  //   name: "Medusa",
+  //   icon: SiTableau,
+  // },
+  // {
+  //   name: "Scikit",
+  //   icon: SiScikitlearn,
+  // },
+  // {
+  //   name: "Tensorflow",
+  //   icon: SiTensorflow ,
+  // },
+  // {
+  //   name: "Pytorch",
+  //   icon: SiPytorch ,
+  // },
   {
     name: "Github",
     icon: FaGithub,
   },
-  {
-    name: "Flask",
-    icon: SiFlask,
-  },
-  {
-    name: "GCP",
-    icon: DiGoogleCloudPlatform,
-  },
-  {
-    name: "Azure",
-    icon: SiMicrosoftazure,
-  },
+  // {
+  //   name: "Flask",
+  //   icon: SiFlask,
+  // },
+  // {
+  //   name: "GCP",
+  //   icon: DiGoogleCloudPlatform,
+  // },
+  // {
+  //   name: "Azure",
+  //   icon: SiMicrosoftazure,
+  // },
   {
     name: "Docker",
     icon: FaDocker,
   },
-  {
-    name: "OpenAI",
-    icon: RiOpenaiFill,
-  },
-  {
-    name: "LangChain",
-    icon: LuBird,
-  },
+  // {
+  //   name: "OpenAI",
+  //   icon: RiOpenaiFill,
+  // },
+  // {
+  //   name: "LangChain",
+  //   icon: LuBird,
+  // },
 ];
 
 export const workData = [
   {
     company: "Zelarsoft",
-    designation: "AI/ML Engineer",
-    duration: "August 2023 - Present",
+    designation: "Software Engineer",
+    duration: "October 2022 - Present",
     companyImg: "zelar_logo.jpg",
     description: (
       <>
-          I am employed as a data scientist and AI/ML engineer. 
-          My experience includes developing Data analysis, Machine Learning and AI models. Along with expertise in various text-generation models including OpenAI, llama, falcon, and palm. 
-          Additionally, I have proficiency in utilizing a range of agents, tools, and LLM integration tools like Langchain. I also possess knowledge of Google and Azure cloud platforms, as well as a variety of computer vision tools.
+        I am employed as a ReactJS, NextJS, and NestJS developer with extensive
+        experience in both front-end and back-end development. My expertise
+        includes building scalable and efficient web applications, creating
+        RESTful APIs, and integrating third-party services. I have hands-on
+        experience with full-stack development, including state management,
+        server-side rendering, and component-based architecture. Additionally, I
+        have good knowledge on Docker, Kubernetes,ensuring seamless deployment
+        and performance optimization of applications.
       </>
     ),
   },
-
 ];
 
 export const projectsData = [
   {
     type: "ALL",
-    title: "Game-Builder using CrewAI and Gemini-Pro",
-    image: "game-builder",
+    title: "Gemini-AI Chatbot",
+    image: "chatbot",
     link: null,
-    source: "https://github.com/sastrysasi4/Game-Builder-using-CrewAI-and-Gemini-Pro",
+    source:
+      "https://github.com/ManasaPeram/Chatgpt-withgeminiAI",
   },
   {
     type: "ALL",
     title: "Portfolio Website",
-    image: "portfolio-home",
+    image: "home",
     link: null,
     source: "https://github.com/sastrysasi4/My-Portfolio-sasidhar",
   },
   {
     type: "ALL",
-    title: "Food Suggestion Chatbot",
-    image: "food-chat",
+    title: "Nest CRUD",
+    image: "Nest-crud",
     link: null,
-    source: "https://github.com/sastrysasi4/Food-Suggestion-Chatbot",
+    source: "https://github.com/ManasaPeram/CRUD-REST-API-with-NestJS-Docker-Swagger-and-Prisma",
   },
-  {
-    type: "ALL",
-    title: "PDF Chat with Google GeminiAI",
-    image: "pdf-chat-gemini",
-    link: null,
-    source: "https://github.com/sastrysasi4/PDF-Chat-with-Google-Gemini-AI",
-  },
-  {
-    type: "ALL",
-    title: "Real-Estate Price Prediction",
-    image: "real-estate",
-    link: null,
-    source: "https://github.com/sastrysasi4/Real-Estate-Price-Prediction",
-  },
-  
+  // {
+  //   type: "ALL",
+  //   title: "PDF Chat with Google GeminiAI",
+  //   image: "pdf-chat-gemini",
+  //   link: null,
+  //   source: "https://github.com/sastrysasi4/PDF-Chat-with-Google-Gemini-AI",
+  // },
+  // {
+  //   type: "ALL",
+  //   title: "Real-Estate Price Prediction",
+  //   image: "real-estate",
+  //   link: null,
+  //   source: "https://github.com/sastrysasi4/Real-Estate-Price-Prediction",
+  // },
 ];
-
 
 export const socialMediaLinks = [
   {
-    href: "https://github.com/sastrysasi4",
+    href: "https://github.com/zlr-manasap",
     icon: FaGithub,
     backgroundColor: "gray.700",
     hoverColor: "gray.600",
   },
   {
-    href: "https://www.linkedin.com/in/sai-sasidhar-sastry-guggilla-556aa0184/",
+    href: "https://www.linkedin.com/in/peram-manasa-771a58220/",
     icon: FaLinkedin,
     backgroundColor: "social.linkedin",
     hoverColor: "social.linkedinHover",
   },
   {
-    href: "mailto:Sastrysasi4@gmail.com",
+    href: "mailto:manasaperam1980@gmail.com",
     icon: BiLogoGmail,
     backgroundColor: "gray.700",
     hoverColor: "gray.600",
-  }
+  },
 ];
 
 export const query = `

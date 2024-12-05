@@ -16,7 +16,7 @@ export default function Home() {
 
   useEffect(() => {
     const options = {
-      strings: ["Data Scientist", "AI/ML Engineer"],
+      strings: ["a full stack developer turning complex challenges into elegant solutions, creating seamless front-end and optimized back-end systems.", ""],
       typeSpeed: 50,
       backSpeed: 35,
       loop: true,
@@ -49,7 +49,7 @@ export default function Home() {
           zIndex={1}
         >
           <RevealWrapper className="load-hidden" delay={300}>
-            <Image
+            {/* <Image
               objectFit="shrink"
               src="/images/ar-profile-transformed.png"
               alt="profile-image"
@@ -59,7 +59,7 @@ export default function Home() {
               marginBottom={["1rem", "1rem", null]}
               backgroundColor="blueTheme.navBg"
               borderRadius="30rem"
-            />
+            /> */}
           </RevealWrapper>
           <RevealWrapper className="load-hidden" delay={400}>
             <Heading
@@ -80,7 +80,7 @@ export default function Home() {
                 fontFamily="Black Ops One"
                 fontSize={["2.5rem", "3.7rem"]}
               >
-                Sasidhar
+                Manasa
               </Heading>
 
               <Heading
@@ -88,7 +88,7 @@ export default function Home() {
                 fontSize={["2.5rem", "3.7rem"]}
                 ml={[null, "1rem"]}
               >
-                Guggilla
+                Peram
               </Heading>
             </Flex>
           </RevealWrapper>

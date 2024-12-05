@@ -35,7 +35,7 @@ const Contact = () => {
                   _hover={{ textDecoration: "none" }}
                 >
                   <Icon as={IoIosMail} mx={2} />
-                  <Text>sastrysasi4@gmail.com</Text>
+                  <Text>manasaperam1980@gmail.com</Text>
                 </Link>
               </Tooltip>
 
