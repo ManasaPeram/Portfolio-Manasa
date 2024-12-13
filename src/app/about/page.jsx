@@ -28,14 +28,14 @@ const Page = () => {
               marginBottom="4rem"
               templateColumns={[null, null, "30% 70%"]}
             >
-              {/* <Image
+              <Image
                 objectFit="shrink"
                 src="/images/profile.jpg"
                 alt="profile-image"
                 width={["20rem", "30rem", "20rem"]}
                 height={["20rem", "30rem", "20rem"]}
                 marginBottom={["1rem", "1rem", null]}
-              /> */}
+              />
 
               <Box textAlign="justify">
                 <Heading size="xl" mt={1} >
