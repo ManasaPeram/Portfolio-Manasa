@@ -21,11 +21,12 @@ import RadioCard from "../../components/RadioCards";
 import { useForm } from "react-hook-form";
 import { useToast } from "@chakra-ui/react";
 import { RevealWrapper } from 'next-reveal'
+import { interestsData } from "../../utils/constants";
 
 const ContactForm = () => {
   const toast = useToast();
-  const options = ["NextJS", "ReactJS", "NestJS", "NodeJS","StrapiCMS","JavaScript", "Other"];
-  const [interestedIn, setInterestedIn] = useState("Web Development");
+  const options = interestsData.map(item => item.interest);
+  const [interestedIn, setInterestedIn] = useState(options[0] || "Web Development");
   const { getRootProps, getRadioProps } = useRadioGroup({
     name: "interested",
     defaultValue: interestedIn,

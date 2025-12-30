@@ -4,7 +4,7 @@ import React from "react";
 import { Center, Box, Button } from "@chakra-ui/react";
 import { AiOutlineDownload } from "react-icons/ai";
 import Image from "next/image";
-import ImageONE from '../../../public/images/image.png';
+import ImageONE from '../../../public/images/image2.png';
 
 const Resume = () => {
   return (
@@ -17,10 +17,10 @@ const Resume = () => {
       >
         <Button
           as="a"
-          href="/files/Manasa_resume_v4.pdf"
+          href="/files/Peraam_Manasa_Profile_4years_1980.pdf"
           colorScheme="teal"
           size="sm"
-          download="Manasa_resume_v4.pdf"
+          download="Peraam_Manasa_Profile_4years_1980.pdf"
         >
           Download&nbsp;
           <AiOutlineDownload fill="black" />

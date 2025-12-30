@@ -8,11 +8,10 @@ import {
   FaReact,
   FaTwitter,
 } from "react-icons/fa";
- 
 
 import { TbBrandCpp, TbDatabaseSearch, TbHexagonLetterC } from "react-icons/tb";
 import { BiLogoJquery, BiLogoPostgresql, BiLogoGmail } from "react-icons/bi";
-import { SiNextdotjs, SiNestjs , SiPostgresql, SiStrapi} from 'react-icons/si';
+import { SiNextdotjs, SiNestjs , SiPostgresql, SiStrapi, SiFastapi, SiLanggraph, SiOpenai, SiMongodb, SiFirebase} from 'react-icons/si';
 import {
   SiGooglecloud,
   SiMysql,
@@ -89,6 +88,30 @@ export const interestsData = [
     interest: "Docker",
     icon: FaDocker,
   },
+  {
+    interest: "Python",
+    icon: FaPython,
+  },
+  {
+    interest: "FastAPI",
+    icon: SiFastapi,
+  },
+  {
+    interest: "LangGraph",
+    icon: SiLanggraph,
+  },
+  {
+    interest: "CopilotKit",
+    icon: SiOpenai,
+  },
+  {
+    interest: "AI Systems",
+    icon: GiArtificialIntelligence,
+  },
+  {
+    interest: "Cloud Platforms",
+    icon: SiGooglecloud,
+  },
 ];
 
 export const skillsData = [
@@ -136,17 +159,53 @@ export const skillsData = [
   //   name: "Flask",
   //   icon: SiFlask,
   // },
-  // {
-  //   name: "GCP",
-  //   icon: DiGoogleCloudPlatform,
-  // },
-  // {
-  //   name: "Azure",
-  //   icon: SiMicrosoftazure,
-  // },
+  {
+    name: "GCP",
+    icon: DiGoogleCloudPlatform,
+  },
+  {
+    name: "Azure",
+    icon: SiMicrosoftazure,
+  },
   {
     name: "Docker",
     icon: FaDocker,
+  },
+  {
+    name: "Python",
+    icon: FaPython,
+  },
+  {
+    name: "GenAI",
+    icon: GiArtificialIntelligence,
+  },
+  {
+    name: "LangGraph",
+    icon: SiLanggraph,
+  },
+  {
+    name: "CopilotKit",
+    icon: SiOpenai,
+  },
+  {
+    name: "Gemini AI",
+    icon: SiOpenai,
+  },
+  {
+    name: "MongoDB",
+    icon: SiMongodb,
+  },
+  {
+    name: "Firebase",
+    icon: SiFirebase,
+  },
+  {
+    name: "Cloud Platforms",
+    icon: DiGoogleCloudPlatform,
+  },
+  {
+    name: "AI Systems",
+    icon: GiArtificialIntelligence,
   },
   // {
   //   name: "OpenAI",
@@ -160,24 +219,40 @@ export const skillsData = [
 
 export const workData = [
   {
-    company: "Zelarsoft",
+    company: "Zelarsoft Private Limited",
     designation: "Software Engineer",
     duration: "October 2022 - Present",
     companyImg: "zelar_logo.jpg",
     description: (
       <>
-        I am employed as a ReactJS, NextJS, and NestJS developer with extensive
-        experience in both front-end and back-end development. My expertise
-        includes building scalable and efficient web applications, creating
-        RESTful APIs, and integrating third-party services. I have hands-on
-        experience with full-stack development, including state management,
-        server-side rendering, and component-based architecture. Additionally, I
-        have good knowledge on Docker, Kubernetes,ensuring seamless deployment
-        and performance optimization of applications.
+        Working as a Full Stack AI Developer, building scalable end-to-end
+        applications using ReactJS, NextJS, Node.js, NestJS, Python and cloud platforms.
+        Actively involved in integrating Generative AI solutions, designing
+        RESTful APIs, optimizing application performance, and developing
+        responsive user interfaces. Hands-on experience with Docker,
+        Kubernetes, and CI/CD pipelines to deliver reliable, production-ready
+        systems.
+      </>
+    ),
+  },
+  {
+    company: "Business Intelli Solutions",
+    designation: "Technical Recruiter",
+    duration: "August 2021 - April 2022",
+    companyImg: "business_intelli_logo.jpg",
+    description: (
+      <>
+        Worked as a Technical Recruiter, responsible for end-to-end recruitment
+        for IT roles. Managed candidate sourcing through job portals and
+        LinkedIn, conducted initial technical screenings, coordinated interviews
+        with hiring managers, and supported smooth onboarding processes.
+        Gained strong understanding of technical skill requirements and hiring
+        workflows.
       </>
     ),
   },
 ];
+
 
 export const projectsData = [
   {
@@ -193,7 +268,7 @@ export const projectsData = [
     title: "Portfolio Website",
     image: "home",
     link: null,
-    source: "https://github.com/sastrysasi4/My-Portfolio-sasidhar",
+    source: "https://github.com/ManasaPeram/Portfolio-Manasa",
   },
   {
     type: "ALL",

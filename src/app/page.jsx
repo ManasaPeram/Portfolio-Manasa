@@ -16,7 +16,7 @@ export default function Home() {
 
   useEffect(() => {
     const options = {
-      strings: ["a full stack developer turning complex challenges into elegant solutions, creating seamless front-end and optimized back-end systems.", ""],
+      strings: ["Full Stack AI Developer turning complex challenges into scalable, elegant solutions across frontend, backend, and cloud systems.", ""],
       typeSpeed: 50,
       backSpeed: 35,
       loop: true,

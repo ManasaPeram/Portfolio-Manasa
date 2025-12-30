@@ -39,23 +39,23 @@ const Page = () => {
 
               <Box textAlign="justify">
                 <Heading size="xl" mt={1} >
-                  👋 Hey there!
+                  Full Stack AI Developer
                 </Heading>
                 <br />
+                <Text fontWeight="bold" mb={4}>
+                  4+ years of experience delivering scalable full-stack solutions across frontend, backend, cloud, and AI systems.
+                </Text>
+                <Text mb={4}>
+                  Full Stack AI Developer with 4+ years of experience designing, building, and scaling high‑performance web applications. Strong expertise across modern frontend frameworks and robust backend systems, with a proven ability to integrate Generative AI into real‑world products. Adept at translating complex business requirements into clean, efficient, and secure solutions.
+                </Text>
+                <Text mb={4}>
+                  Experienced in delivering production‑ready applications using React and Next.js on the frontend, and Node.js, NestJS, and FastAPI on the backend. Hands‑on with cloud‑native architectures across Azure, GCP, and AWS, leveraging Docker, Kubernetes, and CI/CD pipelines for reliable deployments.
+                </Text>
+                <Text mb={4}>
+                  Known for optimizing performance, improving developer experience, and building AI‑powered automation, chatbots, and analytics platforms using LLMs, RAG, and agent‑based workflows. A collaborative engineer with strong ownership, clear communication, and a continuous‑learning mindset.
+                </Text>
                 <Text>
-  Hey, I&apos;m Manasa, a full stack developer with a passion for building the future of the web. From designing sleek, intuitive front-end interfaces to developing powerful back-end systems, I create seamless, scalable applications that deliver exceptional user experiences. 
-  <br></br>
-  <br></br>
-  Whether it&apos;s crafting dynamic React applications or optimizing server-side architecture with Node.js and databases, I thrive on turning complex challenges into elegant solutions. Every project is a chance to innovate, and I&apos;m always ready to push the boundaries of what&apos;s possible with code.
-</Text>
-<br />
-<Text>
-  📫 Let&apos;s team up and build something amazing! I’m always excited to collaborate on new, creative projects with fellow developers and tech enthusiasts.
-</Text>
-
-                <Text>
-                  Happy coding! 🖥️
-                  <br />
+                  Open to collaborating on innovative, AI‑driven and full‑stack projects that push the boundaries of modern web development.
                 </Text>
               </Box>
             </SimpleGrid>

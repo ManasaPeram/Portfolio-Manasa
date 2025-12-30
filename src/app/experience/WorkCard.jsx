@@ -21,19 +21,20 @@ const WorkCard = (props) => {
           boxShadow="0 10px 30px -15px blueTheme.navShadow"
         >
         <CardBody>
-          <Flex flexDirection={["column","column","row"]} justifyContent="center" alignItems="center">
+          <Flex flexDirection={["column","column","row"]} justifyContent="center" alignItems="center" gap={["1rem", "1rem", "2rem"]}>
             <Image
-              objectFit="cover"
+              objectFit="contain"
               src={`/images/${companyImg}`}
               alt="Company Logo"
-              marginRight="1rem"
-              height={["15rem","15rem","13rem"]}
-              width={["15rem","15rem","13rem"]}
-              margin={["2rem auto","1rem","auto 1rem"]}
+              minWidth={["12rem","12rem","10rem"]}
+              maxWidth={["15rem","15rem","13rem"]}
+              height={["auto","auto","auto"]}
+              padding="0.5rem"
               backgroundColor="white"
-              display={["none","unset","unset"]}
+              borderRadius="0.5rem"
+              flexShrink={0}
             />
-            <Box>
+            <Box flex={1}>
               <Heading fontSize="1.5rem">{company}</Heading>
               <Heading size="sm" my={2}>
                 {duration}

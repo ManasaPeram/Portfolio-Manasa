@@ -28,7 +28,7 @@ const Contact = () => {
             <Stack marginTop="4rem">
               <Tooltip label="Send Mail">
                 <Link
-                  href="mailto:sastrysasi4@gmail.com"
+                  href="mailto:manasaperam1980@gmail.com"
                   target="_blank"
                   className="contact-text-span"
                   my={3}
